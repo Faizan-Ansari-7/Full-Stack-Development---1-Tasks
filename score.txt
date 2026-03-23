@@ -1,0 +1,7 @@
+[{"name":"Rohit","runs":52},{"name":"Kohli","runs":96},{"name":"Gill","runs":20},{"name":"Rahul","runs":33},{"name":"Tilak","runs":30},{"name":"Hardik","runs":52}]
+Total runs: 283
+Runrate: 14.15
+Players with more than 50 runs: 
+- Rohit
+- Kohli
+- Hardik
