@@ -1,0 +1,46 @@
+<!-- <html>
+<body>
+    <p id="demo" style="color:blue"></p>
+    <script>
+        size = 15;
+        function add() {
+            obj = document.getElementById("demo");
+            obj.innerHTML = "hello";
+            obj.style.color = "blue";
+            obj.style.fontSize = size + "px";
+            if (size <= 50) {
+                size++;
+            }
+        }
+        setInterval(add, 100);
+    </script>
+</body>
+</html> -->
+
+<html>
+<head>
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1"> Hello</p>
+    <button onclick="fun2()">font-size</button>
+    <script>
+        font = "15";
+        function fun(font) {
+            document.getElementById("p1").style.fontSize = font;
+        }
+        function fun2() {
+            setInterval(
+                function () {
+                    if (font <= 50) {
+                        fun(font++);
+                    }
+                }, 50);
+        }
+    </script>
+</body>
+</html>
