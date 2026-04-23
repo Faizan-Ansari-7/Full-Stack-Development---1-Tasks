@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/Faizan-Ansari-7/Full-Stack-Development---1-Tasks#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
     "express": "^5.2.1",
+    "express-session": "^1.19.0",
     "nodemon": "^3.1.14"
   }
 }
