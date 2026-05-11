@@ -1,0 +1,15 @@
+h3 {
+    color : red;
+    display : flex;
+    justify-content : center;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.result-map {
+    display : flex;
+    justify-content : center;
+    font-size: 20px;
+    color: green;
+}
